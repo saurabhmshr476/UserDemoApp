@@ -11,6 +11,8 @@ import UIKit
 import ProgressHUD
 
 class HomeViewController: UITableViewController {
+    // MARK: - Properties
+    
     var isSortedPressed = false
     let realm = RealmManager()
     var users = [User]()
